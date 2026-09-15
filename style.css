@@ -1,125 +1,63 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; }
+   margin: 40px;
+   padding: 0;
+   box-sizing:border-box;
+   background-color: white;
+}
   
- body{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    gap: 1px;
- }
-  
- nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 10vw;
-    gap: 15px;
-    background-color: black;
- }
-  
- .caixa-dos-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1px;
-    width: 4vw;
-    height: 4vh;
-    background-color: white;
-    color: purple;
-    font-size: 16px;
- }
-  
- .dados-superior-e-inferior{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 2;
- }
-  
- header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    background-color: red;
- }
-  
- .dados-centrais{
-    display: flex;
-    flex-direction: row;
-    flex-grow: 10;
- }
-  
- article{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    gap: 100px;
-    background-color: white;
- }
-  
- .caixa-maior{
-    width: 35vw;
-    height: 30vh;
-    background-color: red;
- }
+#titulo_principal{
+   color: white;
+   background-color: rgb(170, 10, 10);
+   font-size: 60px;
+   font-family: "Times New Roman";
+   text-transform: uppercase;
+}
+
+#subtitulo{
+   color: brown;
+   font-size: 48px;
+   font-family: "Times New Roman";
+   text-transform: uppercase;
+}
  
- .linha-divisoria{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
- }
-  
+h3{
+   color: brown;
+   font-size: 32px;
+   font-family: "Times New Roman";
+   text-transform: uppercase;
+}
  
- .caixas-menores{
-    width: 20vw;
-    height: 20vh;
-    background-color: black;
- }
-  
- aside{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 10vw;
-    flex-shrink: 0;
-    background-color: black;
- }
-  
- .caixa-dos-itens{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1px;
-    width: 4vw;
-    height: 8vh;
-    background-color: white;
-    color: purple;
-    font-size: 16px;
- }
-  
- footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    background-color: red;
- }
-  
- .legenda{
-    color: white;
-    text-transform: uppercase;
-    font-size: 36px;
-    text-align: center;
- }
+h4{
+   color: black;
+   font-size: 16px;
+   font-family: "Times New Roman";
+   text-transform: uppercase;
+}
+ 
+.section1{
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+ 
+.section2{
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.section3{
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+ 
+li{
+   color: black;
+   font-size: 16px;
+   font-family: "Verdana";
+}
+ 
+img{
+   width: 30%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
